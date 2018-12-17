@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="tv_profile_photo">
+    <item name="android:background">@drawable/circle</item>
+</style>
+    <style name="tv_round_online">
+    <item name="android:background">@drawable/online_circle</item>
+</style>
+    <style name="tv_round_offline">
+    <item name="android:background">@drawable/offline_circle</item>
+</style>
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="edittext_msg" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:ems">10</item>
+        <item name="android:imeActionId">100</item>
+        <item name="android:imeOptions">actionSend</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColorHint">@color/primary_dark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tv_user_name">
+        <item name="android:padding">15dp</item>
+       <item name="android:textStyle" >bold</item>
+        <item name="android:textColor">@color/text_color_icon</item>
+    </style>
+</resources>

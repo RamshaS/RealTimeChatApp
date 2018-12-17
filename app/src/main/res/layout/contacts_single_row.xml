@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvroundstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tv_round_online"
+        android:textSize="15sp"
+        android:text=" "
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/tvroundstatusoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tv_round_offline"
+        android:textSize="15sp"
+        android:text=" "
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <customfonts.MyTextView
+        android:id="@+id/tvcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ramsha Saeed"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:paddingLeft="10sp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="22sp"/>
+    <ImageView
+        android:id="@+id/btgotochat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>

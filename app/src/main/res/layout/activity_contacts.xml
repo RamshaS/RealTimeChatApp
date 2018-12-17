@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.ramsl_lasaeed.realtimechatapp.ContactsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:id="@+id/layContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            >
+
+            <customfonts.MyTextView
+                android:id="@+id/signupfor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:textColor="#fff"
+                android:layout_weight="5"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dp"/>
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/logoff"
+                android:id="@+id/btlogout" />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lvcontacts"
+            android:layout_below="@id/layContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/blue"
+            android:dividerHeight="1.5dp"
+            tools:listitem="@layout/contacts_single_row"
+            >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

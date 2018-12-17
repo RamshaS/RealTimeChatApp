@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">R-Chat</string>
+    <string name="text">when this activity created or resume a method fetch all table ids, email and pass and store it in SQlite.</string>
+</resources>
