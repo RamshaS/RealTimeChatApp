@@ -1,8 +1,8 @@
 # RealTimeChatApp
-This App uses firebase to work on real time. Inspired by Whatsapp.
-This portal is build for Sui Southern Gas company(SSGC). Through this portal job seekres and managers get  It consists of two modules. Later on we the team is planning to add more:
-1- Job seeker Module.
-2- Emplolyer Module.i.e: (Dashboard)
+Real Time chatting application is similar with other chat applications we already have in the market. Like Whatsapp, messenger etc etc.... and is also inspired by mainly by Whatsapp. This App focused in using the feasable and very much popular technology we have in market named 'Firebase'. 
+
+## History
+This application was initiated by me in late 2017. Application was build to improve my skills in building android application also to explore the new firebase features introduced in Google i/o '17.
 
 ## Getting Started
 
