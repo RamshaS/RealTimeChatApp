@@ -4,6 +4,9 @@ Real Time chatting application is similar with other chat applications we alread
 ## History
 This application was initiated by me in late 2017. Application was build to improve my skills in building android application also to explore the new firebase features introduced in Google i/o '17.
 
+## Future Scope
+Our mainly focus will be end-to-end encription because some of user's most personal moments will be shared by this app, which is why we focus on bulding end-to-end encryption into the latest versions of our app. When end-to-end encrypted, user's messages and calls are secured so only user and the person user is communicating with can read or listen to them, and nobody in between, not even our team :-)
+
 ## Getting Started
 
 To get started with this web portal. You need the following software to be installed before cloning this portal on your PC.
@@ -20,44 +23,23 @@ Give examples
 
 ### Installing
 
-To install this webportal you need to first setup Database in XAMMP the database file is located inside database folder in root directory.
-After setting up Database you need to update Database username and password.
-Go to jobseeker/application/config/database.php for database configuration file.
+Install this app on your PC/Mac in three simple steps:
 
-![database config file](https://static.javatpoint.com/codeigniter/images/database1.png)
-
-In database.php file, fill the entries to connect CodeIgniter folder to your database.
-
-![database info](https://static.javatpoint.com/codeigniter/images/database2.png)
-
-Now change path mention in config file of codeigniter go to jobseeker/application/config/config.php
-Alter the following IP as per your need.
-```
-$config['base_url'] = 'http://your_ip/CareerPortal/jobseeker/';
-
-```
-All setup now open browser and start using the portal.
+1. First you need to dowwnload android studio.
+2. Fork this repo onto your git.
+3. Copy the clone path of this application appearing on your git and paste it on android studio.
 
 ## Deployment
 
+Build the project in android Studio and make a signed apk using the top menu inside android studio. save it on a approachable location. That's it.
 For Deployment must modify database.php file inside config file. 
-```
-Inside $db['default'] array change 
 
-'db_debug' => (ENVIRONMENT !== 'development')
-
-                    to 
-
-'db_debug' => (ENVIRONMENT !== 'production')
-```
 ## Built With
-
-* [Codeigniter3 - PHP](https://codeigniter.com/user_guide/index.html) - The web framework used
-* [Bootstrap](https://getbootstrap.com/) - For User Interface
-* [JQUERY](https://jquery.com/) - For validation, actions and animations
-* [MYSQL](https://dev.mysql.com/doc/) - Database
-* [XAMPP](https://www.apachefriends.org/index.html) - Server used
-* [CAPTCHA](https://www.google.com/recaptcha/intro/v3.html) - Captcha to stop bots to fill forms
+* [Java - Android](https://www.java.com/en/) - For Back-End Programming
+* [XML - Android](https://www.xml.com/) - For User Interface
+* [Firebase](https://firebase.google.com/) - Acting as a Server
+* [Gradle](https://gradle.org/) - Build Tool For android
+* [Android Studio](https://developer.android.com/studio) - IDE
 
 
 ## Contributing
