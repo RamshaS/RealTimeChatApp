@@ -44,7 +44,7 @@ For Deployment must modify database.php file inside config file.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/RamshaS/CareerPortal) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/RamshaS/RealTimeChatApp/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -58,7 +58,7 @@ See also the list of [contributors](https://github.com/RamshaS/CareerPortal/cont
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/RamshaS/RealTimeChatApp/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
